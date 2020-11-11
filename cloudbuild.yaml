@@ -4,4 +4,4 @@
     args: ['install']
   - name: gcr.io/cloud-builders/docker
     args: ["build", "-t", "gcr.io/$PROJECT_ID/calculator", "--build-arg=WAR_FILE=target/calculator.war", "."]
-images: ["gcr.io/$PROJECT_ID/calculator"]
+  images: ["gcr.io/$PROJECT_ID/calculator"]

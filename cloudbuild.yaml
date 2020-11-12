@@ -5,7 +5,7 @@
   - name: gcr.io/$PROJECT_ID/sonar-scanner:latest
     args:
     - '-Dsonar.host.url=https://sonarcloud.io'
-    - '-Dsonar.login=0e2f403439bc383b660fe884516cb1ef0116c5a0'
+    - '-Dsonar.login=08f4feb1d1450e3fde0c58cad2ddf9a9d97127ea'
     - '-Dsonar.projectKey=ashwani77_java-maven-calculator-web-app'
     - '-Dsonar.organization=ashwani77'
     - '-Dsonar.sources=.'

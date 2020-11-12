@@ -10,6 +10,7 @@
       - '-Dsonar.organization=ashwani77'
       - '-Dsonar.sources=.'
       - '-Dsonar.scanner.force-deprecated-java-version=true'
+      - '-Dsonar.java.binaries=target/classes'
   - name: gcr.io/cloud-builders/docker
     args: ["build", "-t", "gcr.io/$PROJECT_ID/calculator", "--build-arg=WAR_FILE=target/calculator.war", "."]
   images: ["gcr.io/$PROJECT_ID/calculator"]

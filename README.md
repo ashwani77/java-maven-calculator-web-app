@@ -1,5 +1,5 @@
 # A Java Maven Calculator Web App
-A Java calculator web app, build by Maven, CI/CD by Jenkins by TelusInternational Inc.
+A Java calculator web app, build by Maven, CI/CD by Jenkins by TelusInternational Inc(Xavient).
 
 ![image](realworld-pipeline-flow.png)
 
